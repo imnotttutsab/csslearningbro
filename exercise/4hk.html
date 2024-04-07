@@ -23,11 +23,28 @@
     border:none;
     transition: all 0.15s;
   }
-  
   .stretch:hover{
     padding:14px;
     padding-left: 30px;
     padding-right: 30px;
+  }
+
+  .shadow{
+    background-color:green;
+    color:white;
+    padding:6px;
+    font-size:16.4px;
+    padding-left:15px;
+    padding-right:15px;
+    cursor: pointer;
+    border:none;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.27);
+    transition: all 0.15s;
+  }
+  .shadow:active{
+    box-shadow:none;
+    margin-top:3px;
+    margin-left:3px;
   }
 </style>
 
@@ -39,3 +56,5 @@
 <button class="next">Next</button>
 <br><br>
 <button class ="stretch">Stretch</button>
+<br><br>
+<button class="shadow">Shadow</button>
