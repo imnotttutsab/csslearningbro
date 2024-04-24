@@ -13,13 +13,9 @@
       margin-top:0px;
       margin-bottom: 0px;
     }
-    .thumbnail-row{
-      margin-bottom: 13px;
-    }
     .thumbnail{
-      margin-top: 20px;
-      width:300px;
-      display:block;
+      width:100%;
+      margin-bottom: 10px;
     }
     .serach{
       display:block;
@@ -32,24 +28,13 @@
       line-height:18px;
       margin-bottom:12px;
     }
-    .preview{
-      width:300px;
-      display:inline-block;
-      vertical-align:top;
-      margin-right:10px;
+
+    .video-info-grid{
+      display:grid;
+      grid-template-columns: 50px 1fr;
+      
     }
 
-    .channel-picture{
-      display:inline-block;
-      width:50px;
-      vertical-align: top;
-    }
-
-    .video-info{
-      width:200px;
-      display:inline-block;
-      vertical-align: top;
-    }
     .profile-picture{
       width:40px;
       border-radius: 100%;
@@ -62,17 +47,25 @@
     .author{
       margin-bottom: 4px;
     }
+
+    .video-container{
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap:15px;
+      row-gap:40px;
+    }
   </style>
 </head>
 <body>
   <input  class="search" type="text" placeholder="Search">
-  <br>
-  
+  <br><br>
+  <div class="video-container">
+  <!--First-->
   <div class="preview">
     <div class="thumbnail-row">
       <img class="thumbnail"src="thumbnails/thumbnail-1.webp" alt="MArquee Brown video">
     </div>
-    <div>
+    <div class="video-info-grid">
       <div class="channel-picture">
         <img class="profile-picture" src="channel-profile/channel-1.jpeg">
       </div>
@@ -83,11 +76,12 @@
       </div>
     </div>
   </div>
+<!--Second-->
   <div class="preview">
     <div class="thumbnail-row">
       <img class="thumbnail"src="thumbnails/thumbnail-2.webp" alt="MArquee Brown video">
     </div>
-    <div>
+    <div class="video-info-grid">
       <div class="channel-picture">
         <img class="profile-picture" src="channel-profile/channel-2.jpeg">
       </div>
@@ -98,5 +92,73 @@
       </div>
     </div>
   </div>
+
+<!--Third-->
+  <div class="preview">
+    <div class="thumbnail-row">
+      <img class="thumbnail"src="thumbnails/thumbnail-3.webp" alt="MArquee Brown video">
+    </div>
+    <div class="video-info-grid">
+      <div class="channel-picture">
+        <img class="profile-picture" src="channel-profile/channel-3.jpeg">
+      </div>
+      <div class="video-info">
+        <p class="video-title">
+          Crazy Tik Toks Taken Moments Before DISASTER</p>
+      <p class="author">SSSniperWolf</p>
+      <p class="stats">12M views &#183; 1 year ago</p>
+      </div>
+    </div>
+  </div>
+<!--Fourth-->
+  <div class="preview">
+    <div class="thumbnail-row">
+      <img class="thumbnail"src="thumbnails/thumbnail-4.webp" alt="MArquee Brown video">
+    </div>
+    <div class="video-info-grid">
+      <div class="channel-picture">
+        <img class="profile-picture" src="channel-profile/channel-4.jpeg">
+      </div>
+      <div class="video-info">
+        <p class="video-title">The Simplest Math Problem No One Can Solve - Collatz</p>
+      <p class="author"></p>Veritasium</p>
+      <p class="stats">18M views &#183; 4 months ago</p>
+      </div>
+    </div>
+  </div>
+
+<!--Fifth-->
+  <div class="preview">
+    <div class="thumbnail-row">
+      <img class="thumbnail"src="thumbnails/thumbnail-5.webp" alt="MArquee Brown video">
+    </div>
+    <div class="video-info-grid">
+      <div class="channel-picture">
+        <img class="profile-picture" src="channel-profile/channel-5.jpeg">
+      </div>
+      <div class="video-info">
+        <p class="video-title">Kadane's Algorithm to Maximum Sum Subarray</p>
+      <p class="author">CS dojo</p>
+      <p class="stats">519K views &#183; 5 years ago</p>
+      </div>
+    </div>
+  </div>
+<!--Sixth-->
+  <div class="preview">
+    <div class="thumbnail-row">
+      <img class="thumbnail"src="thumbnails/thumbnail-6.webp" alt="MArquee Brown video">
+    </div>
+    <div class="video-info-grid">
+      <div class="channel-picture">
+        <img class="profile-picture" src="channel-profile/channel-6.jpeg">
+      </div>
+      <div class="video-info">
+        <p class="video-title">Anything You Can Fit In The Circle I’ll Pay For</p>
+      <p class="author">MrBeast</p>
+      <p class="stats">141M views &#183; 1 year ago</p>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
