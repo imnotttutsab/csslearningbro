@@ -13,6 +13,12 @@
       display:grid;
       grid-template-columns: 50px 1fr 75px;
     }
+    .c{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 20px;
+      row-gap:10px;
+    }
   </style>  
 </head>
 <body>
@@ -27,6 +33,18 @@
     <div style="background-color: lightblue;">Col1</div>
     <div style="background-color: lightpink;">Col2</div>
     <div style="background-color: lightblue;">Col3</div>
+  </div>
+
+  <h1>11 c.</h1>
+  <div class="c">
+    <div style="background-color: lightpink;">Col1</div>
+    <div style="background-color: lightpink;">Col2</div>
+    <div style="background-color: lightpink;">Col3</div>
+    <div style="background-color: lightpink;">Col4</div>
+    <div style="background-color: lightpink;">Col1</div>
+    <div style="background-color: lightpink;">Col2</div>
+    <div style="background-color: lightpink;">Col3</div>
+    <div style="background-color: lightpink;">Col4</div>
   </div>
 </body>
 </html>
