@@ -28,6 +28,51 @@
       padding-left:8px;
       padding-right: 8px;
     }
+
+    .header{
+      display: flex;
+      flex-direction: row;
+      background-color: blueviolet;
+      height:50px;
+      justify-content: space-between;
+      align-items: center;
+      font-family: Arial;
+      font-size:13px;
+    }
+
+    .left-section{
+      color:white;
+      margin:10px;
+      font-weight: 600;
+      margin-right: 60px;
+    }
+    .middle-section{
+      flex:1;
+      
+      margin-right:60px;
+    }
+    .search{
+      width:100%;
+      border-radius: 15px;
+      border:none;
+      padding:6px;
+      font-size:12px;
+    }
+    .right-section{
+      width:fit-content;
+    }
+    .download{
+      border:solid;
+      border-width:1px;
+      border-color: white;
+      border-radius:4px;
+      background-color:blueviolet;
+      padding:5px;
+      padding-left:8px;
+      padding-right:8px;
+      color:white;
+      margin-right:8px;
+    }
   </style>
 </head>
 <body>
@@ -47,7 +92,7 @@
     <div style="background-color: lightblue;
     width:50px;">item1</div>
     <div style="background-color: lightpink;
-    flex:1">item2</div>
+    flex:1;">item2</div>
     <div style="background-color: lightblue;
     width:75px;">item3</div>
   </div>
@@ -92,5 +137,19 @@
       <div class="row-notif">5</div>
     </div>
   </div>
+
+  <h1>12f</h1>
+  <div class="header">
+    <div class="left-section">Home</div>
+    <div class="middle-section">
+      <input class="search" placeholder="Search">
+    </div>
+    <div class="right-section">
+      <button class="download">Download</button>
+    </div>
+  </div>
+
+  <!--12g. is very similar to prev challange-->
+
 </body>
 </html>
