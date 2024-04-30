@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
+    body{
+      font-family:Arial;
+      font-size:15px;
+    }
     .main{
       border-style:solid;
       border-color:rgb(220, 220, 220);
@@ -16,7 +20,32 @@
       margin:5px;
       color:gray;
     }
-    
+    .e-mail{
+      margin-top: 10px;
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .pfp{
+      height:40px;
+      width:40px;
+      border-radius:25px;
+      margin:5px;
+    }
+    .text-top{
+      display:flex;
+      flex-direction:row;
+      justify-content: space-between;
+      padding-bottom: 5px;
+    }
+    .username{
+      font-weight: 600;
+      font-size:14x;
+    }
+    .time{
+      color:grey;
+      font-size:13px;
+    }
   </style>
 </head>
 <body>
@@ -29,7 +58,12 @@
         <img class="pfp" src="10/pfp/download.jpg">
       </div>
       <div class="text">
-
+        <div class="text-top">
+          <div class="username">Chewy Production</div>
+          <div class="time">4:58 PM</div>
+        </div>
+        <div class="subject">Biggest sales of the year!</div>
+        <div class="preview">Hey there! We're writing to tell you about our...</div>
       </div>
     </div>
   </div>
