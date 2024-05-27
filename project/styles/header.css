@@ -3,6 +3,15 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position:fixed;
+  top:0;
+  right:0;
+  left:0;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color:rgb(230,230,230);
+  z-index:100;
 }
 
 .left-section{
@@ -82,6 +91,23 @@
 } 
 .notifications-icon{
   height:24px;
+}
+.notif-container{
+  position: relative;
+}
+.notif-counter{
+  font-family: Roboto,Arial;
+  font-size:11px;
+  padding-left: 5px;
+  padding-top:2px;
+  padding-bottom:2px;
+  padding-right:5px;;
+  border-radius: 12px;;
+  position: absolute;
+  top:-2px;
+  right:-5px;
+  background-color: rgb(214, 44, 44);
+  color:white;
 }
 .current-user-icon{
   height:30px;
