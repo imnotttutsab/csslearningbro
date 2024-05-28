@@ -6,6 +6,7 @@
   <title>YouTube.com Clone</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!--Style is up to date to the final project-->
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles/general.css">
 <link rel="stylesheet" href="styles/header.css">
@@ -13,9 +14,8 @@
 <link rel="stylesheet" href="styles/video.css">
 
 </head>
-<!--UP to ate to lesson 15-->
+<!--Except the last 6 videos and video linking the code is up to date to final project-->
 <body>
-  <!--HEADER-->
   <div class="header">
     <div class="left-section">
       <img  class="hamburger-menu" src="icons/hamburger-menu.svg">
@@ -24,31 +24,58 @@
     <div class="middle-section"><input  class="search" type="text" placeholder="Search">
       <button class="search-button">
         <img class="search-icon" src="icons/search.svg">
+        <div class="tooltip">Search</div>
       </button>
       <button class="voice-search-button">
         <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
       </button>
     </div>
     <div class="right-section">
+    <div class="upload-icon-container">
       <img class="upload-icon" src="icons/upload.svg">
-      <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+      <div class="tooltip">Create</div>
+    </div>
+      <div class="youtube-apps-container">
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+        <div class="tooltip">YouTube Apps</div>
+      </div>
       <div class="notif-container">
         <img class="notifications-icon" src="icons/notifications.svg">
         <div class="notif-counter">3</div>
+        <div class="tooltip">YouTube Apps</div>
       </div>
       <img class="current-user-icon" src="channel-profile/my-channel.jpeg">
     </div>
   </div>
-
-<!--Sidebar-->
   <div class="sidebar">
-    sidebar
+    <div class="sidebar-link">
+      <img src="sidebar/home.svg">
+      Home
+    </div>
+    <div class="sidebar-link">
+      <img src="sidebar/explore.svg">
+      Explore
+    </div>
+    <div class="sidebar-link">
+      <img src="sidebar/subscriptions.svg">
+      Subscriptions
+    </div>
+    <div class="sidebar-link">
+      <img src="sidebar/originals.svg">
+      Originals
+    </div>
+    <div class="sidebar-link">
+      <img src="sidebar/youtube-music.svg">
+      YouTube Music
+    </div>
+    <div class="sidebar-link">
+      <img src="sidebar/library.svg">
+      Library
+    </div>
   </div>
-  
-  
-  
+
   <br>
-  <!--Video-->
   <div class="video-container">
   <!--First-->
   <div class="preview">
